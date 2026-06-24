@@ -77,7 +77,7 @@ export const Home: React.FC<HomeProps> = ({
             className="bg-white rounded-xl shadow-xs border border-slate-200 p-6 flex flex-col justify-between overflow-hidden relative group cursor-pointer"
           >
             <ImageWithFallback
-              src="/images/las1.jpg"
+              src="/images/las20.jpeg"
               alt="Hana Star Production"
               fallbackCategory="soap"
               className="absolute inset-0 w-full h-full object-cover opacity-20 grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-500"
@@ -127,7 +127,7 @@ export const Home: React.FC<HomeProps> = ({
             className="bg-white rounded-xl shadow-xs border border-slate-200 p-2 overflow-hidden cursor-pointer group relative"
           >
             <ImageWithFallback
-              src="/images/las5.jpg"
+              src="/images/las5.jpeg"
               alt="Soap Making Training"
               fallbackCategory="training"
               className="w-full h-full object-cover rounded-lg group-hover:scale-105 transition-transform duration-500"

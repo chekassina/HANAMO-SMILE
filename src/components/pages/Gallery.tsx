@@ -38,7 +38,7 @@ export const Gallery: React.FC = () => {
         </div>
         <div className="flex items-center gap-2 text-xs font-mono text-slate-500 bg-white px-3.5 py-2 rounded-lg border border-slate-200 self-start md:self-auto">
           <Camera className="w-4 h-4 text-sky-600" />
-          <span>public/images/las1.jpg to las40.jpg</span>
+          <span>public/images/las21.jpeg to las22.jpeg</span>
         </div>
       </div>
 
@@ -88,7 +88,7 @@ export const Gallery: React.FC = () => {
               </div>
             </div>
             <span className="absolute top-2 left-2 bg-slate-900/70 text-white font-mono text-[9px] px-1.5 py-0.5 rounded backdrop-blur-xs">
-              las{item.id}.jpg
+              las4{item.id}.jpeg
             </span>
           </div>
         ))}
@@ -122,7 +122,7 @@ export const Gallery: React.FC = () => {
                 <h3 className="text-lg font-black tracking-tight mb-2">{lightboxItem.title}</h3>
                 <p className="text-xs text-slate-300 leading-relaxed">{lightboxItem.caption}</p>
                 <div className="mt-6 pt-4 border-t border-slate-800 space-y-2 text-xs text-slate-400 font-mono">
-                  <div>File Path: public/images/las{lightboxItem.id}.jpg</div>
+                  <div>File Path: public/images/las{lightboxItem.id}.jpeg</div>
                   <div>Category: {lightboxItem.category.toUpperCase()}</div>
                   <div>Location: Mutundwe Factory, Kampala</div>
                 </div>
