@@ -1,0 +1,6 @@
+{
+  "name": "Hanamo Smile Enterprise Ltd.",
+  "description": "Official website for Hanamo Smile Enterprise Ltd., Uganda's trusted bar soap manufacturer, branding consultant, and soap-making training institution founded by Mr. Moshe Haruna.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
